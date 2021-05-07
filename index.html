@@ -8,9 +8,34 @@
     <title>Soda clicker</title>
 </head>
 <body class="d-flex h-100 flex-column">
-    <main class="row justify-center">
-        <a href="assets/soda clicker v.jpg"></a>
-        <img src="assets/soda clicker v.jpg" alt="soda clicker v.jpg">
-    </main>    
+        <main class="container">
+            <div class="row justify-center">
+            <a href="assets/soda clicker v.jpg">
+                <img src="assets/soda clicker v.jpg" alt="soda clicker v.jpg">
+            </a>
+        </div>
+        <div class='row'>
+            <div class="column justify-center align-center">
+                <div class="w-100">
+                    <h1>Your bottles: <span id="money"></span></h1>
+                </div>
+                <div class="row">
+                    <h1>Bottles per second: <span id="mps"></span></h1>
+                </div>
+                <div class="w-100">
+                    <h1>Bottlers: <span id="followers"></span></h1>
+                </div>
+            </div>
+           <div class="column justify-center align-center">
+               <div>
+                <button id="click">Create</button>
+              </div>
+           </div>
+        </div>
+        <div class='row'>
+            <div id="msgbox"></div>
+        </div>
+    </main>
+    <script src="javascripts/clicker.js"></script>
 </body>
 </html>
